@@ -1,0 +1,31 @@
+# Config #
+############
+*.json
+!example.json
+!sources.json
+
+# Intermediate Files #
+######################
+resources/*
+*.zip
+
+# Packages #
+############
+!package.json
+!bower.json
+node_modules
+node_modules/*
+
+# Dev Functions #
+#################
+sarapple.js
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

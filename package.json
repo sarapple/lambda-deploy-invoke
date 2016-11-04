@@ -1,0 +1,20 @@
+{
+  "name": "lambda-deploy-invoke",
+  "version": "0.1",
+  "description": "A setup for uploading and invoking lambda functions via the AWS CLI using Gulp 4",
+  "scripts": {
+    "start": "export NODE_ENV=example && node ./node_modules/gulp/bin/gulp.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sara Wong",
+  "license": "MIT",
+  "devDependencies": {
+    "bluebird": "^3.4.6",
+    "gulp": "gulpjs/gulp.git#4.0",
+    "node-zip": "^1.1.1"
+  },
+  "dependencies": {
+    "nconf": "^0.8.4"
+  }
+}

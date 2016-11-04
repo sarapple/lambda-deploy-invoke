@@ -1,0 +1,9 @@
+{
+  "lambda" : {
+    "function_file": "example.js",
+    "request_file": "resources/request.txt",
+    "response_file": "resources/response.json",
+    "function" : "example",
+    "region": "us-east-1"
+  }
+}
