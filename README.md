@@ -39,7 +39,3 @@ For this to work, you _must_ run gulp using gulp 4+.
 ```bash
 export NODE_ENV=dev && node ./node_modules/gulp/bin/gulp.js
 ```
-
-## Todo
-
-- Add testing
